@@ -2,7 +2,7 @@ package Skills;
 
 import cardwars1.Player;
 
-public class Strength extends Skill{
+public class Strength implements Skill{
     private static final int ROUND_TRIGGER = 3;
     private static final int ATK_INCREASE = 10;
 

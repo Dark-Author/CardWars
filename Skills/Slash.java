@@ -2,7 +2,7 @@ package Skills;
 
 import cardwars1.Player;
 
-public class Slash extends Skill{
+public class Slash implements Skill{
     private static final int ROUND_TRIGGER = 2;
     private static final double ATTACK_PERCENT = 0.35;
     

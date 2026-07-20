@@ -2,7 +2,7 @@ package Skills;
 
 import cardwars1.Player;
 
-public class Focus extends Skill{
+public class Focus implements Skill{
     private static final int ROUND_TRIGGER = 3;
     private static final int CRIT_CHANCE_INCREASE = 4;
     private static final int CRIT_DAMAGE_INCREASE = 40;

@@ -2,7 +2,7 @@ package Skills;
 
 import cardwars1.Player;
 
-public class Prec extends Skill{
+public class Prec implements Skill{
     private static final int ROUND_TRIGGER = 4;
     private static final int CRIT_CHANCE_INCREASE = 20;
     private static final int CRIT_DAMAGE_INCREASE = 10;

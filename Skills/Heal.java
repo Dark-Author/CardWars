@@ -2,7 +2,7 @@ package Skills;
 
 import cardwars1.Player;
 
-public class Heal extends Skill{
+public class Heal implements Skill{
     private static final int ROUND_TRIGGER = 3;
     private static final double HEAL_PERCENT = 0.04;
     private static final double HEAL_EFFECT_INCREASE = 0.1;
